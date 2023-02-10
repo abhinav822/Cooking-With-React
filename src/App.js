@@ -4,7 +4,7 @@ import Counter from "./Counter";
 export const ThemeContext = React.createContext();
 
 function App() {
-  const [theme, setTheme] = useState('cyan')
+  const [theme, setTheme] = useState('pink')
   return (
     <ThemeContext.Provider value={{ backgroundColor: theme }}>
       <Counter initialCount={0} />
